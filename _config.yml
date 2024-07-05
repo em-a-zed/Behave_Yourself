@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+e ~Yourself!# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: My Awesome Site
-email:
+title: Behave Yourself!
+email: mauroagostino.zordan@unipd.it
 description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-author:
+url: "https//em-a-zed.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+author: Mauro A. Zordan
   name:
   twitter:
   picture:

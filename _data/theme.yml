@@ -35,5 +35,5 @@ navigation_pages:
   - contents.md
 #  - about.md
   #- cv.md
-  - tags.md
-  - categories.md
+  #- tags.md
+  #- categories.md

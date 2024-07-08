@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Behave Yourself!
+title: #Behave Yourself!
 email: mauroagostino.zordan@unipd.it
 description: "Animal tracking: a DIY reference"
 baseurl: # the subpath of your site, e.g. /blog
@@ -25,7 +25,7 @@ author:
   picture: #/assets/images/johndoe.png
 twitter_username: #Towlette_Pettetucci
 github_username: em-a-zed
-logo: /assets/icons/Glyph.png
+logo: #/assets/icons/Glyph.png
 search: true
 search_full_content: true
 search_provider: lunr

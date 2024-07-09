@@ -6,4 +6,4 @@ image:
 
 
 
-<object data="../assets/pdf/Starting_3.pdf" width="1400" height="800" type='application/pdf'></object>
+<object data="../assets/pdf/Starting_3.pdf" width="1000" height="1000" type='application/pdf'></object>

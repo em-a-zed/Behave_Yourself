@@ -1,10 +1,10 @@
 ---
-title: ""
+title: "The logic of the basic experimental setups"
 image: 
   path: /assets/images/Gears.jpg
 ---
 
-# The logic of the basic experimental setups
+<!--- # The logic of the basic experimental setups --->
 
 There are two basic scenarios which normally present themselves:
 

@@ -1,10 +1,10 @@
 ---
-title: ""
+title: "General concepts"
 image: 
   path: /assets/images/Gears.jpg
 ---
 
-# General concepts
+<!--- # General concepts --->
 
 ## The problem
 

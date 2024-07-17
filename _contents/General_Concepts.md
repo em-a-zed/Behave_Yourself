@@ -1,5 +1,5 @@
 ---
-title: "General concepts"
+title: "1. General concepts"
 image: 
   path: /assets/images/Gears.jpg
 ---

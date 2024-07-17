@@ -1,5 +1,5 @@
 ---
-title: "The logic of the basic experimental setups"
+title: "2. The logic of the basic experimental setups"
 image: 
   path: /assets/images/Gears.jpg
 ---

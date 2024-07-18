@@ -1,7 +1,7 @@
 ---
-title: "2. The logic of the basic experimental setups"
+title: "10. The logic of the basic experimental setups"
 image: 
-  path: /assets/images/Gears.jpg
+  path: /assets/images/Ones&Zeros_Hero.jpg
 ---
 
 <!--- # The logic of the basic experimental setups --->

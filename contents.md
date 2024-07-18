@@ -3,7 +3,7 @@ title: Contents
 layout: collection
 permalink: /contents/
 collection: contents
-paginate: true  # enables pagination loop, see section above for additional setup
+paginate: true  # enables pagination loop
 entries_layout: list
 show_excerpts: false
 sort_by: title # date (default) title

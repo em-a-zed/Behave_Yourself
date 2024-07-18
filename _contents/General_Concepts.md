@@ -1,8 +1,11 @@
 ---
-title: "1. General concepts"
+title: "05. General concepts"
 image: 
   path: /assets/images/Gears.jpg
 ---
+
+<!--- NEED TO THANK FOR GRAPHIC CONTENT --->
+<!--- https://pixabay.com/illustrations/search/circuit%20boards/ --->
 
 <!--- # General concepts --->
 
@@ -17,9 +20,8 @@ image:
     everything that is required on a Do It Yourself basis, both from
     the hardware as well as from the software points of vew.
 
--   Although this may seem a difficult undertaking, in reality it is
-    relatively simple. All that is required is some programming
-    experience as well as a basic knowledge of electronics.
+-   All that is required is some programming experience as well as a 
+	basic knowledge of electronics.
 
 -   I will deal with the subject matter mainly referring to
     behavioural experimentation in the lab involving *Drosophila

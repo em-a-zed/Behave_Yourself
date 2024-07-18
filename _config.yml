@@ -16,16 +16,16 @@
 lang: en-US
 title: Behave Yourself!
 email: mauroagostino.zordan@unipd.it
-description: "Animal tracking: a DIY reference"
+description: "Animal tracking in the lab: a DIY reference"
 baseurl: # the subpath of your site, e.g. /blog
-url: ""  # the base hostname & protocol for your site, e.g. http://example.com
+url: "https//em-a-zed.github.io/Behave_Yourself"  # the base hostname & protocol for your site, e.g. http://example.com
 author:
-  name: Mauro A. Zordan
+  name: M@Z
   twitter: #Towlette_Pettetucci
   picture: #/assets/images/johndoe.png
 twitter_username: #Towlette_Pettetucci
 github_username: em-a-zed
-logo: #/assets/icons/Glyph.png
+logo: /assets/images/DIY_Logo.svg
 search: true
 search_full_content: true
 search_provider: lunr

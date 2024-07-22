@@ -12,7 +12,7 @@ In the first case the setup consists in a cylindrical LED panel enclosure at the
 <br />
 <br />
 ```html
-<img src="./assets/images/Tracking_Setup_LED.png" class="align-center" alt="">
+<img src="/assets/images/Tracking_Setup_LED.png" class="align-center" alt="">
 ```
 <br />
 <br />

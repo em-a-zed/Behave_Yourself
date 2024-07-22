@@ -19,6 +19,6 @@ In the second case the setup consists in a cylindrical frosted (sanded) plexigla
 
 <br />
 ```markdown
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/Tracking_Setup_UST.png){: .align-center} 
+![image-center]({{ site.url }}{{ site.baseurl}}/assets/images/Tracking_Setup_UST.png){: .align-center} 
 ```
 

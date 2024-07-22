@@ -1,14 +1,14 @@
 ---
-title: "20. What you'll need: Software"
+title: "20. What you will (or might) need: Software"
 image: 
   path: /assets/images/Binary_Hero.jpg
 ---
 
 <!--- # General concepts --->
 
-### General Software
+## General Software
 
-1.  <span class="underline">**MATLAB**</span>
+1.  <span class="underline">MATLAB</span>
 
            
     MATLAB (Matrix Laboratory) is a powerful commercial software
@@ -59,17 +59,9 @@ image:
         -   Active user community and technical support services.
 		
 		<br />
-		### Applications:
-    
-		- **Engineering and Scientific Research**: Used extensively in academia and industry for research and development.
-		- **Data Science and Machine Learning**: Provides tools and functions for data preprocessing, machine learning, and deep learning.
-		- **Finance**: Used for quantitative analysis, modeling, and algorithmic trading.
+		This is the link to the MATLAB software download and documentation pages: [MATLAB](https://mathworks.com/products/matlab.html)
 
-    <br />	
-    This is the link to the MATLAB software download and documentation
-    pages: [MATLAB](https://mathworks.com/products/matlab.html)
-
-2.  <span class="underline">**Python**</span>
+2.  <span class="underline">Python</span>
 
            
     Python is a versatile and powerful open source programming language
@@ -131,11 +123,86 @@ image:
         -   Popular libraries like TensorFlow, Keras, and scikit-learn for
             data analysis and machine learning projects.
     
-	<br />
-	This is the link to the Python programming software download and
+    This is the link to the Python programming software download and
          documentation pages: [Python](https://www.python.org)
 
-3.  <span class="underline">**R and RStudio**</span>
+3.  <span class="underline">Visual Studio</span>
+
+      
+    Visual Studio Code (VS Code) is a free, open-source code editor
+    developed by Microsoft. It is designed to provide developers with a
+    lightweight, yet powerful, tool for coding across a wide range of
+    programming languages and frameworks. Here are some key features and
+    aspects of Visual Studio Code:
+    
+    1.  **Multi-language Support**: VS Code supports a wide variety of
+        programming languages out of the box, including JavaScript,
+        TypeScript, Python, C++, and many others. Additional language
+        support can be added through extensions.
+    
+    2.  **Integrated Development Environment (IDE) Features**: VS Code offers
+        features typically found in full-fledged IDEs, such as IntelliSense
+        (code completion), debugging, Git integration, and code
+        refactoring.
+    
+    3.  **Extensions and Customization**: The editor is highly
+        customizable. Users can install extensions to add new
+        functionalities, themes to change the look and feel, and even
+        keybindings to change how VS Code responds to keyboard
+        shortcuts. There is a large marketplace with thousands of
+        extensions available.
+    
+    4.  **Built-in Git Integration**: VS Code has built-in Git support,
+        allowing users to perform version control operations such as
+        commit, push, pull, and branch management directly within the
+        editor.
+    
+    5.  **Debugging Tools**: The editor includes a powerful debugging
+        toolset. Users can set breakpoints, inspect variables, view call
+        stacks, and more.
+    
+    6.  **Live Share**: This feature allows developers to collaboratively
+        edit and debug code in real-time. It’s particularly useful for
+        remote pair programming.
+    
+    7.  **Terminal Integration**: A built-in terminal allows developers to
+        run command-line tasks without leaving the editor.
+    
+    8.  **Snippets and Code Navigation**: VS Code supports code snippets,
+        which are templates that make it easier to enter repeating code
+        patterns. Advanced code navigation features like "Go to
+        Definition," "Find All References," and "Peek Definition" help in
+        understanding and managing the codebase.
+    
+    9.  **Lightweight and Fast**: Despite its rich feature set, VS Code is
+        designed to be lightweight and fast, providing a responsive
+        experience.
+    
+    10. **Cross-Platform**: It runs on Windows, macOS, and Linux, making it
+        accessible to developers on different operating systems.
+    
+    11. **Vibrant Community**: VS Code has a large and active user
+        community, contributing to its rapid development and the plethora
+        of available extensions.
+    
+    12. **Extensive Documentation**: Microsoft provides comprehensive
+        documentation, tutorials, and examples, making it easier for new
+        users to get started and for experienced users to deepen their
+        knowledge.
+    
+    13. **Regular Updates**: Microsoft regularly updates VS Code, adding new
+        features, performance improvements, and bug fixes.
+    
+    14. **Community and Professional Support**: Users can get support
+        through community forums, GitHub issues, and more formal support
+        channels if using Visual Studio Code in a professional or
+        enterprise setting.
+		
+	    This is the link to the Visual Code programming software download and
+	         documentation pages: [VS Code](https://code.visualstudio.com/)
+		
+
+4.  <span class="underline">R and RStudio</span>
 
            
     R is a powerful scripting language specifically designed for
@@ -183,38 +250,14 @@ image:
     10. **Strong Community Support**:
         -   Active community forums, user groups, and extensive
             documentation and tutorials available online.
-			
-    <br />
-	This is the link to the R programming software download and documentation pages: [R](https://www.r-project.org)
-	
-	<br />
-	RStudio is an integrated development environment (IDE) for R, a programming language used for statistical computing and graphics. It provides a user-friendly interface that includes several tools to facilitate the development of R scripts and the analysis of data. Here are some key features of RStudio:
+    
+    This is the link to the R programming software download and
+    documentation pages: [R](https://www.r-project.org)
+    
+    This is the link to the RStudio IDE for R download and documentation
+    pages: [RStudio](https://posit.co/download/rstudio-desktop/)
 
-	1. **Code Editor**: A powerful text editor with syntax highlighting, code completion, and error checking specifically designed for R code.
-
-	2. **Console**: An interactive R console where users can run R commands directly.
-
-	3. **Environment/Workspace Management**: Tools to manage R objects, including data frames, vectors, and other variables. It allows users to view and manipulate these objects easily.
-
-	4. **Plotting**: Integrated plotting windows to display visualizations and graphs created using R's graphics capabilities.
-
-	5. **Package Management**: Tools to install, update, and manage R packages, which are collections of R functions, data, and compiled code.
-
-	6. **Project Management**: Support for organizing and managing multiple R projects, which can include scripts, data files, and other resources.
-
-	7. **Version Control**: Integration with version control systems like Git, allowing users to track changes to their code and collaborate with others.
-
-	8. **R Markdown**: Support for R Markdown, a file format for making dynamic documents with R. R Markdown documents can include embedded R code chunks, which are executed during the document generation process.
-
-	RStudio is available in two formats: RStudio Desktop, which is an application that runs on a user's desktop, and RStudio Server, which allows access to RStudio through a web browser, enabling remote and collaborative work.
-
-	RStudio enhances the experience of using R by providing a cohesive environment tailored to the needs of statisticians, data analysts, and data scientists.
-
-	<br />
-	This is the link to the RStudio-user-interface-for-R download and documentation pages: [RStudio](https://posit.co/download/rstudio-desktop/)
-
-
-4.  <span class="underline">**Inkscape**</span>
+5.  <span class="underline">Inkscape</span>
 
            
     Inkscape is a versatile and open-source vector graphics editor. Here
@@ -236,11 +279,11 @@ image:
     
     These features make Inkscape suitable for tasks such as logo design,
     technical illustrations, and web graphics.
- 	<br />   
+    
     This is the link to the Inkscape download and documentation pages:
     [Inkscape](https://inkscape.org)
 
-5.  <span class="underline">**OpenSCAD**</span>
+6.  <span class="underline">OpenSCAD</span>
 
            
     OpenSCAD is a unique 3D design software tailored for creating precise
@@ -263,13 +306,12 @@ image:
     work. Furthermore, the 3D models produced can be rendered into
     real-world objects because OpenSCAD models can be exported as files
     suitable for 3D printing.
-	
-    <br />
+    
     This is the link to the Inkscape download and documentation pages:
     [OpenSCAD](https://openscad.org)
 
 
-### Specific Software
+## Specific Software
 
 1.  **Tracking software**
 
@@ -319,7 +361,6 @@ image:
         tracking. Thus MARGO also allows to (live-) track multiple individuals
         housed in a single arena, albeit without keeping the identity of the
         individuals separate.  
-
         <br />
         This is the link to the MARGO script download and documentation pages:
         [MARGO](https://github.com/de-Bivort-Lab/margo).
@@ -327,7 +368,7 @@ image:
 
 2.  **Visual Stimulation software**
 
-    1.  <span class="underline">**PsychoPy®**</span>
+    1.  **PsychoPy®**
               
         PsychoPy® is a very powerful open-source package for running
         experiments in Python (a real and free alternative to

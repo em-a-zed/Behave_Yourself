@@ -10,7 +10,11 @@ image:
 In the first case the setup consists in a cylindrical LED panel enclosure at the bottom of which there is a circular 3D-printed transparent-resin arena with a transparent glass top. The arena is illuminated from beneath with an array of Infrared LEDs, while the tracked individual (in this case a fly) is video-recorded using a digital camera equipped with a longpass IR filter. Visual stimulation of the individual occurs via programmed patterns transmitted by the computer software to the arrays of LEDs.
 
 <br />
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/Tracking_Setup_LED.png){: .align-center}  
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/Tracking_Setup_LED.png){: .align-center}
+<figure class="align-center">
+  <a href="#"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/Tracking_Setup_LED.png" alt=""></a>
+  <figcaption>Look at 580 x 300 <a href="#">getting some</a> love.</figcaption>
+</figure> 
 
 <br />
 <br />

@@ -1,7 +1,7 @@
 ---
 title: "25. Putting it all together"
-<!---image: 
-  path: /assets/images/Puzzle_Hero.jpg--->
+image: 
+  path: /assets/images/Puzzle_Hero.jpg
 ---
 
 <!--- # General concepts --->

@@ -9,7 +9,7 @@ show_excerpts: false
 sort_by: title # date (default) title
 sort_order: # forward (default), reverse
 image: 
-  path: /assets/images/Books_Hero.jpg
+  path: /assets/images/Cats&Box_Hero.jpg
 ---
 
 > *Everything should be made as simple as possible but not any simpler*

@@ -393,8 +393,6 @@ image:
         <br />        
         This is the link to the Stytra documentation and installation
         pages: [Stytra](https://portugueslab.com/stytra/).
-    
-    4.  TODO <span class="underline">Custom tracking software using Python</span>
 
 2.  **Visual Stimulation software**
 

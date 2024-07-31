@@ -6,7 +6,7 @@ image:
 
 <!--- # General concepts --->
 
-## General Software
+### General Software
 
 1.  <span class="underline">MATLAB</span>
 
@@ -57,9 +57,9 @@ image:
     8.  **Documentation and Support**:
         -   Comprehensive documentation, tutorials, and examples.
         -   Active user community and technical support services.
-		
-		<br />
-		This is the link to the MATLAB software download and documentation pages: [MATLAB](https://mathworks.com/products/matlab.html)
+    
+    This is the link to the MATLAB software download and documentation
+    pages: [MATLAB](https://mathworks.com/products/matlab.html)
 
 2.  <span class="underline">Python</span>
 
@@ -126,7 +126,7 @@ image:
     This is the link to the Python programming software download and
          documentation pages: [Python](https://www.python.org)
 
-3.  <span class="underline">Visual Studio</span>
+3.  <span class="underline">Visual Studio Code</span>
 
       
     Visual Studio Code (VS Code) is a free, open-source code editor
@@ -197,10 +197,9 @@ image:
         through community forums, GitHub issues, and more formal support
         channels if using Visual Studio Code in a professional or
         enterprise setting.
-		
-	    This is the link to the Visual Code programming software download and
-	         documentation pages: [VS Code](https://code.visualstudio.com/)
-		
+        
+        This is the link to the Visual Studio Code programming software
+         download and documentation pages: [VS Code](https://code.visualstudio.com/)
 
 4.  <span class="underline">R and RStudio</span>
 
@@ -253,7 +252,7 @@ image:
     
     This is the link to the R programming software download and
     documentation pages: [R](https://www.r-project.org)
-    
+    <br />
     This is the link to the RStudio IDE for R download and documentation
     pages: [RStudio](https://posit.co/download/rstudio-desktop/)
 
@@ -311,12 +310,15 @@ image:
     [OpenSCAD](https://openscad.org)
 
 
-## Specific Software
+<a id="orgdb21f7a"></a>
+
+### Specific Software
 
 1.  **Tracking software**
 
-    1.  <span class="underline">**Ctrax: The Caltech Multiple Walking Fly Tracker**</span>
-              
+    1.  <span class="underline">Ctrax: The Caltech Multiple Walking Fly Tracker</span>
+    
+          
         Live (real time) unsupervised tracking of multiple moving objects
         contained in a single defined area of interest is a relatively complex
         task. In particular it is a task which requires supervision and a
@@ -334,12 +336,13 @@ image:
         
         Ctrax is a freely available, cross-platform, open source standalone
         software package.
-        <br />
+        
         This is the link to the Ctrax software download and documentation
         pages: [Ctrax](https://ctrax.sourceforge.net).
     
-    2.  <span class="underline">**MARGO: Massively Automated Real-time GUI for Object-tracking**</span>
-              
+    2.  <span class="underline">MARGO: Massively Automated Real-time GUI for Object-tracking</span>
+    
+          
         MARGO is scripted in the MATLAB programming environment. The
         GUI-based application allows to simultaneously track (in real time) up
         to several hundred individuals, each contained within a delimited
@@ -361,15 +364,43 @@ image:
         tracking. Thus MARGO also allows to (live-) track multiple individuals
         housed in a single arena, albeit without keeping the identity of the
         individuals separate.  
-        <br />
+        
         This is the link to the MARGO script download and documentation pages:
         [MARGO](https://github.com/de-Bivort-Lab/margo).
     
+    3.  <span class="underline">Stytra</span>
+    
+          
+        Stytra is an open-source software package developed for the purpose of
+        behavioral neuroscience research, particularly in the study of
+        zebrafish. Here are the key details and features of Stytra: Stytra is
+        designed to track and analyze the behavior of small animals,
+        specifically zebrafish larvae and adults. The software can present
+        various types of stimuli to the animals, including visual, thermal,
+        and optogenetic stimuli. Stytra provides real-time analysis and
+        visualization of behavioral data. Researchers can monitor experiments
+        as they happen, adjusting parameters and setups dynamically. The
+        software is highly customizable and extensible, allowing users to
+        tailor experiments to their specific research needs. Stytra supports
+        integration with various types of experimental hardware, such as
+        cameras and stimulus delivery devices, ensureing synchronized control
+        and recording of both stimuli and behavioral data.  
+        The software is written in Python, leveraging various scientific
+        libraries such as OpenCV for computer vision and PyQt for graphical
+        user interfaces. This makes it accessible and modifiable for users
+        familiar with Python. Comprehensive documentation is available,
+        including installation guides, tutorials, and API references.  
+        <br />        
+        This is the link to the Stytra documentation and installation
+        pages: [Stytra](https://portugueslab.com/stytra/).
+    
+    4.  TODO <span class="underline">Custom tracking software using Python</span>
 
 2.  **Visual Stimulation software**
 
-    1.  **PsychoPy®**
-              
+    1.  <span class="underline">PsychoPy®</span>
+    
+          
         PsychoPy® is a very powerful open-source package for running
         experiments in Python (a real and free alternative to
         Matlab). PsychoPy® combines the graphical strengths of OpenGL with
@@ -377,8 +408,7 @@ image:
         presentation and control package. It is used by many labs worldwide
         for psychophysics, cognitive neuroscience and experimental
         psychology.  
-
-		<br />	
+        <br />
         This is the link to the PsychoPy® download and documentation pages:
         [PsychoPy](https://www.psychopy.org/)
 

@@ -389,7 +389,7 @@ some key aspects such as:
     adopt an upright standing position throughout the arena, as
     described in the paper by Simon et al. (Simon and Dickinson 2010).
 
-1.  [Construction of fruit fly arenas]{.underline} In our lab we employ
+1.  Construction of fruit fly arenas In our lab we employ
     circular arenas of varying diameters, according to the type of
     experimental setup employed (i.e. single animal *vs* multiple
     animals) (Meda et al. 2020), (Meda et al. 2022). Such arenas are
@@ -462,8 +462,8 @@ some key aspects such as:
 
     o.  Use the \"`rotate_extrude`\" command to make a 3D object. Check
         the figure below representing an example of an arena produced
-        with the above procedure: the commands described at points 13,
-        14 and 15, should be issued in the reverse order (i.e. in
+        with the above procedure: the commands described at points "m",
+        "n" and "o", should be issued in the reverse order (i.e. in
         OpenSCAD, transformations of a defined object are prepended to
         (i.e. given before) the generation of the object. In the figure,
         the OpenSCAD console is visible on the left of the 3D object and

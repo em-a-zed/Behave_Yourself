@@ -361,105 +361,116 @@ cameras and for illumination devices, as well as raised stages for the arena(s) 
 ### Arenas
 
 The design and construction of arenas suitable for containing the
-animals in a defined space during tracking (perhaps in the
-presence of visual stimulation of the individuals) requires the
-consideration of some key aspects such as:  
+animals in a defined space during tracking (perhaps in the presence of
+visual stimulation of the individuals) requires the consideration of
+some key aspects such as:
 
--   the material used to construct the arena should be transparent,
-    in particular the top, which is the part through which the video
-    camera will be recording the behaviour of the enclosed animals;
--   the shape of the arena should be considered carefully, according
-    to the intentions of the experimenter. In particular, circular
-    shaped arenas are generally used in order to avoid having
-    corners into which the animals may tend to find "refuge", which
-    may result in the animals remaining immobile for most of the
-    experiment time. On the other hand, circular open spaces may be
-    a source of stress, in particular for single animals, and this
-    should be kept in due consideration. In this respect, throughout
-    the years, many other geometries for arenas used to study
-    particular aspects of *Drosophila melanogaster* behaviour have
-    been proposed (see for example, \cite{soibam_modeling_2012} or
-    \cite{tom_mekdara_novel_2012}).
--   In the case of experiments involving insects, such as
-    Drosophila, the height of the enclosing arena (i.e. floor to
-    ceiling) requires a careful design in order to restrict the
-    vertical motion of the flies by not allowing them to fly, but
-    only walk. Also the height should decline towards the edges of
-    the arena, so that the flies can only adopt an upright standing
-    position throughout the arena, as described in the paper by
-    Simon et al. (\cite{simon_new_2010}).
+-   the material used to construct the arena should be transparent, in
+    particular the top, which is the part through which the video camera
+    will be recording the behaviour of the enclosed animals;
 
-1.  <span class="underline">Construction of fruit fly arenas</span>
+-   the shape of the arena should be considered carefully, according to
+    the intentions of the experimenter. In particular, circular shaped
+    arenas are generally used in order to avoid having corners into
+    which the animals may tend to find \"refuge\", which may result in
+    the animals remaining immobile for most of the experiment time. On
+    the other hand, circular open spaces may be a source of stress, in
+    particular for single animals, and this should be kept in due
+    consideration. In this respect, throughout the years, many other
+    geometries for arenas used to study particular aspects of
+    *Drosophila melanogaster* behaviour have been proposed (see for
+    example, (Soibam et al. 2012) or (Tom Mekdara et al. 2012)).
 
-    In our lab we employ circular arenas of varying diameters,
-    according to the type of experimental setup employed (i.e. single
-    animal *vs* multiple animals)(\cite{meda_searching_2020},
-    \cite{meda_heuristic_2022}). Such arenas are made from
-    transparent (or semi-transparent) colourless 3D-printed resin.
-    The design of the arenas can be done in many ways. One of these
-    is to employ technical drawing software, such as Inkscape, to
-    produce a vectorialized profile of the circular arena (i.e. a
-    side view plane) which can then be "spun" virtually around it's
-    center to produce a 3D solid of revolution using software, such
-    as OpenSCAD, which allows to export the design as a file
-    representing the 3D structure in a format which can be used to
-    instruct a 3D printer to produce the solid object represented in
-    the diagram using the desired material (such as transparent
-    resin).
-    A possible workflow for the design of a circular arena with the
-    characteristics described in \cite{simon_new_2010} would be:
-    
-    1.  Generate the 2D profile by plotting the mathematical function
+-   In the case of experiments involving insects, such as Drosophila,
+    the height of the enclosing arena (i.e. floor to ceiling) requires a
+    careful design in order to restrict the vertical motion of the flies
+    by not allowing them to fly, but only walk. Also the height should
+    decline towards the edges of the arena, so that the flies can only
+    adopt an upright standing position throughout the arena, as
+    described in the paper by Simon et al. (Simon and Dickinson 2010).
+
+1.  [Construction of fruit fly arenas]{.underline} In our lab we employ
+    circular arenas of varying diameters, according to the type of
+    experimental setup employed (i.e. single animal *vs* multiple
+    animals) (Meda et al. 2020), (Meda et al. 2022). Such arenas are
+    made from transparent (or semi-transparent) colourless 3D-printed
+    resin. The design of the arenas can be done in many ways. One of
+    these is to employ technical drawing software, such as Inkscape, to
+    produce a vectorialized profile of the circular arena (i.e. a side
+    view plane) which can then be \"spun\" virtually around it's center
+    to produce a 3D solid of revolution using software, such as
+    OpenSCAD, which allows to export the design as a file representing
+    the 3D structure in a format which can be used to instruct a 3D
+    printer to produce the solid object represented in the diagram using
+    the desired material (such as transparent resin). A possible
+    workflow for the design of a circular arena with the characteristics
+    described in (Simon and Dickinson 2010) would be:
+
+    a.  Generate the 2D profile by plotting the mathematical function
         which describes the profile using an R script (i.e. using
         RStudio).
-    2.  Export the plotted profile image from RStudio as an "svg" type
+
+    b.  Export the plotted profile image from RStudio as an \"svg\" type
         file. Make sure to choose the option to **not** conserve the
-        aspect ratio, otherwise the true size of the object will not
-        be maintained.
-    3.  Open the "svg" file with Inkscape.
-    4.  Ungroup the imported object to isolate it from the background
-        which is also imported with the original "svg" image.
-    5.  Delete the underlying background and keep the object.
-    6.  Put the Inkscape grid into "mm" mode.
-    7.  Use the "node tool" and identify the nodes at the extremities
+        aspect ratio, otherwise the true size of the object will not be
+        maintained.
+
+    c.  Open the \"svg\" file with Inkscape.
+
+    d.  Ungroup the imported object to isolate it from the background
+        which is also imported with the original \"svg\" image.
+
+    e.  Delete the underlying background and keep the object.
+
+    f.  Put the Inkscape grid into \"mm\" mode.
+
+    g.  Use the \"node tool\" and identify the nodes at the extremities
         of each of the segments which make up the profile. Select one
-        adjacent node on either side of adjacent segments and click
-        the "join selected nodes" button in the toolbar. There are
-        various instructional videos online showing this procedure.
-    8.  Finally, select all the segments and use the "Paths" menu to
+        adjacent node on either side of adjacent segments and click the
+        \"join selected nodes\" button in the toolbar. There are various
+        instructional videos online showing this procedure.
+
+    h.  Finally, select all the segments and use the \"Paths\" menu to
         combine all the paths into one.
-    9.  Now use the "Fill and stroke" menu to make the lines of the
+
+    i.  Now use the \"Fill and stroke\" menu to make the lines of the
         desired thickness (usually would be 1.5-2.0 mm)
-    10. Select the object and move the object to (0,0) coordinates
-        (Inkscape has 0,0 coordinates in the top lef hand corner, it
-        is better to move the object to the bottom left hand corner,
-        as OpenSCAD then reads that as being the (0,0) position in
-        it's own reference framework. In Inkscape, on an A4 sheet of
-        paper in portrait mode, this would be at [0, 292] (not [0,
-        297], because the object has a size of 5mm, if the line
-        thickness chosen is 1.5mm and the floor-to-ceiling height of
-        the arena is 3.5mm).
-    11. Check the size of the object to make sure the dimensions of
-        the object are as you want them to be (i.e. the radius,
-        thickness, and max. ceiling height. Correct them if
-        necessary).
-    12. Save the Inkscape object as an "svg" file.
-    13. Open the "svg" file using OpenSCAD. To open the "svg" file
-        open a "New Document" in OpenSCAD, then use the OpenSCAD
-        console to issue an "import()" command.
-    14. Translate the position of the object to have the X
-        coordinates at zero (Actually, for technical reasons, it is
-        better to place the object at 3D coordinates (x=0.0001, y=0, z=0).
-    15. Use the "`rotate_extrude`" command to make a 3D object. Check
+
+    j.  Select the object and move the object to (0,0) coordinates
+        (Inkscape has 0,0 coordinates in the top lef hand corner, it is
+        better to move the object to the bottom left hand corner, as
+        OpenSCAD then reads that as being the (0,0) position in it's own
+        reference framework. In Inkscape, on an A4 sheet of paper in
+        portrait mode, this would be at \[0, 292\] (not \[0, 297\],
+        because the object has a size of 5mm, if the line thickness
+        chosen is 1.5mm and the floor-to-ceiling height of the arena is
+        3.5mm).
+
+    k.  Check the size of the object to make sure the dimensions of the
+        object are as you want them to be (i.e. the radius, thickness,
+        and max. ceiling height. Correct them if necessary).
+
+    l.  Save the Inkscape object as an \"svg\" file.
+
+    m.  Open the \"svg\" file using OpenSCAD. To open the \"svg\" file
+        open a \"New Document\" in OpenSCAD, then use the OpenSCAD
+        console to issue an \"import()\" command.
+
+    n.  Translate the position of the object to have the X coordinates
+        at zero (Actually, for technical reasons, it is better to place
+        the object at 3D coordinates (x=0.0001, y=0, z=0).
+
+    o.  Use the \"`rotate_extrude`\" command to make a 3D object. Check
         the figure below representing an example of an arena produced
-        with the above procedure: the commands described at points
-        13, 14 and 15, should be issued in the reverse order (i.e. in
-        OpenSCAD, transformations of a defined object are prepended
-        to (i.e. given before) the generation of the object. In the
-        figure, the OpenSCAD console is visible on the left of the 3D
-        object and it shows the commands in the order in which they
-        should be issued.
+        with the above procedure: the commands described at points 13,
+        14 and 15, should be issued in the reverse order (i.e. in
+        OpenSCAD, transformations of a defined object are prepended to
+        (i.e. given before) the generation of the object. In the figure,
+        the OpenSCAD console is visible on the left of the 3D object and
+        it shows the commands in the order in which they should be
+        issued.
 		![image-center]({{ site.url }}{{ site.baseurl}}/assets/images/OpenSCAD_60mm_Arena.png)
-    16. Save the 3D object as an "stl" file.
-    17. Send to 3D printing service to be printed in the material of
+    p.  Save the 3D object as an \"stl\" file.
+
+    q.  Send to 3D printing service to be printed in the material of
         choice. Generally this would be transparent resin.

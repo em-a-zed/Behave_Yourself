@@ -389,22 +389,8 @@ some key aspects such as:
     adopt an upright standing position throughout the arena, as
     described in the paper by Simon et al. (Simon and Dickinson 2010).
 
-1.  Construction of fruit fly arenas In our lab we employ
-    circular arenas of varying diameters, according to the type of
-    experimental setup employed (i.e. single animal *vs* multiple
-    animals) (Meda et al. 2020), (Meda et al. 2022). Such arenas are
-    made from transparent (or semi-transparent) colourless 3D-printed
-    resin. The design of the arenas can be done in many ways. One of
-    these is to employ technical drawing software, such as Inkscape, to
-    produce a vectorialized profile of the circular arena (i.e. a side
-    view plane) which can then be \"spun\" virtually around it's center
-    to produce a 3D solid of revolution using software, such as
-    OpenSCAD, which allows to export the design as a file representing
-    the 3D structure in a format which can be used to instruct a 3D
-    printer to produce the solid object represented in the diagram using
-    the desired material (such as transparent resin). A possible
-    workflow for the design of a circular arena with the characteristics
-    described in (Simon and Dickinson 2010) would be:
+1.  **Construction of fruit fly arenas** <br />
+	In our lab we employ circular arenas of varying diameters, according to the type of experimental setup employed (i.e. single animal *vs* multiple animals) (Meda et al. 2020), (Meda et al. 2022). Such arenas are made from transparent (or semi-transparent) colourless 3D-printed resin. The design of the arenas can be done in many ways. One of these is to employ technical drawing software, such as Inkscape, to produce a vectorialized profile of the circular arena (i.e. a side view plane) which can then be \"spun\" virtually around it's center to produce a 3D solid of revolution using software, such as OpenSCAD, which allows to export the design as a file representing the 3D structure in a format which can be used to instruct a 3D printer to produce the solid object represented in the diagram using the desired material (such as transparent resin). A possible workflow for the design of a circular arena with the characteristics described in (Simon and Dickinson 2010) would be:
 
     a.  Generate the 2D profile by plotting the mathematical function
         which describes the profile using an R script (i.e. using

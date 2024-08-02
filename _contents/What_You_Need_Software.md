@@ -313,10 +313,13 @@ image:
 <a id="orgdb21f7a"></a>
 
 ### Specific Software
+In recent years many software packages for tracking of animals in laboratory settings have been proposed by the researcher community. Some of them are specifically dedicated to
+tracking offline from video recordings of the animal(s) activity. Others are designed to perform relatively high speed real-time tracking (usually of single animals). In what follows
+I describe those packages which have been, to some extent, employed in our labs.
 
 1.  **Tracking software**
 
-    1.  <span class="underline">Ctrax: The Caltech Multiple Walking Fly Tracker</span>
+    1.  **Ctrax: The Caltech Multiple Walking Fly Tracker**
     
           
         Live (real time) unsupervised tracking of multiple moving objects
@@ -340,7 +343,7 @@ image:
         This is the link to the Ctrax software download and documentation
         pages: [Ctrax](https://ctrax.sourceforge.net).
     
-    2.  <span class="underline">MARGO: Massively Automated Real-time GUI for Object-tracking</span>
+    2.  **MARGO: Massively Automated Real-time GUI for Object-tracking**
     
           
         MARGO is scripted in the MATLAB programming environment. The
@@ -368,9 +371,8 @@ image:
         This is the link to the MARGO script download and documentation pages:
         [MARGO](https://github.com/de-Bivort-Lab/margo).
     
-    3.  <span class="underline">Stytra</span>
-    
-          
+    3.  **Stytra**
+
         Stytra is an open-source software package developed for the purpose of
         behavioral neuroscience research, particularly in the study of
         zebrafish. Here are the key details and features of Stytra: Stytra is
@@ -390,13 +392,13 @@ image:
         user interfaces. This makes it accessible and modifiable for users
         familiar with Python. Comprehensive documentation is available,
         including installation guides, tutorials, and API references.  
-        <br />        
+        <br />
         This is the link to the Stytra documentation and installation
         pages: [Stytra](https://portugueslab.com/stytra/).
 
 2.  **Visual Stimulation software**
 
-    1.  <span class="underline">PsychoPy®</span>
+    1.  **PsychoPy®**
     
           
         PsychoPy® is a very powerful open-source package for running

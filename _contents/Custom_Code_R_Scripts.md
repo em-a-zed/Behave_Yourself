@@ -1,7 +1,7 @@
 ---
 title: "30. Custom Code: R Scripts"
 image: 
-  path: /assets/images/Binary_Hero.jpg
+  path: /assets/images/Custom_code_Hero.png
 ---
 
 <!--- # General concepts --->

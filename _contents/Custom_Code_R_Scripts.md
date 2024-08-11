@@ -1,10 +1,14 @@
 ---
 title: "30. Custom Code: R Scripts"
 image: 
-  path: /assets/images/Custom_code_Hero.png
+  path: /assets/images/Custom_code_R_Hero.png
 ---
 
+
 <!--- # General concepts --->
+
+The R scripts described here can be found in this Github Repository:
+[R_Scripts](https://github.com/em-a-zed/Custom-Tracking-Code/tree/main/R)
 ### Script to generate circular arena profile
 
 The following is an R script which defines a function (called

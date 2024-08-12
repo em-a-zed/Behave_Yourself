@@ -6,6 +6,7 @@ image:
 
 <!--- # General concepts --->
 
+<br />
 
 Duistermars, Brian J., and Mark A. Frye. 2008. "A Magnetic Tether System
 to Investigate Visual and Olfactory Mediated Flight Control in

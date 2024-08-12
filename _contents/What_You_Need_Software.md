@@ -8,9 +8,8 @@ image:
 
 ### General Software
 
-1.  <span class="underline">MATLAB</span>
+1.  **MATLAB**
 
-           
     MATLAB (Matrix Laboratory) is a powerful commercial software
     environment used for numerical computing, data analysis, algorithm
     development, and visualization. Here are its key features:
@@ -61,9 +60,8 @@ image:
     This is the link to the MATLAB software download and documentation
     pages: [MATLAB](https://mathworks.com/products/matlab.html)
 
-2.  <span class="underline">Python</span>
+2. **Python**
 
-           
     Python is a versatile and powerful open source programming language
     known for its simplicity and readability. Here are some key features:
     
@@ -126,9 +124,8 @@ image:
     This is the link to the Python programming software download and
          documentation pages: [Python](https://www.python.org)
 
-3.  <span class="underline">Visual Studio Code</span>
+3.  **Visual Studio Code**
 
-      
     Visual Studio Code (VS Code) is a free, open-source code editor
     developed by Microsoft. It is designed to provide developers with a
     lightweight, yet powerful, tool for coding across a wide range of
@@ -201,9 +198,8 @@ image:
         This is the link to the Visual Studio Code programming software
          download and documentation pages: [VS Code](https://code.visualstudio.com/)
 
-4.  <span class="underline">R and RStudio</span>
+4.  **R and RStudio**
 
-           
     R is a powerful scripting language specifically designed for
     statistical computing and data analysis. Here are its key features:
     
@@ -256,9 +252,8 @@ image:
     This is the link to the RStudio IDE for R download and documentation
     pages: [RStudio](https://posit.co/download/rstudio-desktop/)
 
-5.  <span class="underline">Inkscape</span>
+5.  **Inkscape**
 
-           
     Inkscape is a versatile and open-source vector graphics editor. Here
     are its key features:
     
@@ -282,8 +277,7 @@ image:
     This is the link to the Inkscape download and documentation pages:
     [Inkscape](https://inkscape.org)
 
-6.  <span class="underline">OpenSCAD</span>
-
+6.  **OpenSCAD**
            
     OpenSCAD is a unique 3D design software tailored for creating precise
     3D models through scripting. Here are its key features:
@@ -309,8 +303,6 @@ image:
     This is the link to the Inkscape download and documentation pages:
     [OpenSCAD](https://openscad.org)
 
-
-<a id="orgdb21f7a"></a>
 
 ### Specific Software
 In recent years many software packages for tracking of animals in laboratory settings have been proposed by the researcher community. Some of them are specifically dedicated to

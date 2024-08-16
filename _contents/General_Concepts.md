@@ -14,20 +14,27 @@ image:
 -   If you are reading this, then you are likely interested in
     video-tracking of animals for behavioural studies.
 
--   This guide is an attempt to provide indications on how to
-    approach this problem starting from the basics. As the title
-    implies, the idea is to provide suggestions on how to implement
-    everything that is required on a Do It Yourself basis, both from
-    the hardware as well as from the software points of vew.
+-   This guide is an attempt to provide indications on how to approach
+    this problem starting from the basics. As the title implies, the
+    idea is to provide suggestions on how to implement everything that
+    is required on a Do It Yourself basis, both from the hardware as
+    well as from the software points of vew.
 
--   All that is required is some programming experience as well as a 
-	basic knowledge of electronics.
+-   Granted, there are commercial solutions available. Some of these
+    deal with all the aspects of animal tracking in the laboratory,
+    offering a complete package which includes the required hardware as
+    well as the software (i.e. [Noldus](https://www.noldus.com/)).
+    Others, such as [ANY-maze](https://www.any-maze.com/), proved the
+    tracking software. In both cases the software is conceived to handle
+    all aspects of the tracking process, such as data acquisition and
+    storage, experiment design, statistical data analysis and reporting
+    of results. This paper reports a comparison of the performance of
+    the two systems (Lim et al. 2023).
 
--   I will deal with the subject matter mainly referring to
-    behavioural experimentation in the lab involving *Drosophila
-    melanogaster* as the model organism. However, most of what will
-    be exposed can be adapted to other laboratory model organisms
-    with relative ease.
+-   I will deal with the subject matter mainly referring to behavioural
+    experimentation in the lab involving *Drosophila melanogaster* as
+    the model organism. However, most of what will be exposed can be
+    adapted to other laboratory model organisms with relative ease.
 
 
 ## The solutions

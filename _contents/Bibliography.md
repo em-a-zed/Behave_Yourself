@@ -16,6 +16,12 @@ to Investigate Visual and Olfactory Mediated Flight Control in
 Drosophila." *J Vis Exp*, no. 21 (November): 1063.
 <https://doi.org/10.3791/1063>.
 
+Lim, Charmaine J. M., Bettina Platt, Sanna K. Janhunen, and Gernot
+Riedel. 2023. "Comparison of Automated Video Tracking Systems in the
+Open Field Test: ANY-Maze Versus EthoVision XT." *Journal of
+Neuroscience Methods* 397 (September): 109940.
+<https://doi.org/10.1016/j.jneumeth.2023.109940>.
+
 Meda, Nicola, Giovanni Frighetto, Aram Megighian, and Mauro Agostino
 Zordan. 2020. "Searching for Relief: Drosophila Melanogaster Navigation
 in a Virtual Bitter Maze." *Behav Brain Res* 389 (July): 112616.

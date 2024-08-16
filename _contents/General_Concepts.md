@@ -24,7 +24,7 @@ image:
     deal with all the aspects of animal tracking in the laboratory,
     offering a complete package which includes the required hardware as
     well as the software (i.e. [Noldus](https://www.noldus.com/)).
-    Others, such as [ANY-maze](https://www.any-maze.com/), proved the
+    Others, such as [ANY-maze](https://www.any-maze.com/), provide the
     tracking software. In both cases the software is conceived to handle
     all aspects of the tracking process, such as data acquisition and
     storage, experiment design, statistical data analysis and reporting

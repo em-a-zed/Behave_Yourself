@@ -15,14 +15,9 @@ The following is an R script which defines a function (called
 \"Arena\"). The function is based upon the piece function as defined in
 (Simon and Dickinson 2010). The function will generate the profile of an
 arena (actually half of an arena) having a floor-to-ceiling height of
-3.5mm and a radius of 30mm. The generated profile is made up of segments
-defined by the \"pieces\" of the function. The junctions are not
-apparent in the graph, but Inkscape will detect these as discontinuities
-between the segments. This is why they need to be joined in Inkscape,
-before submitting the profile to OpenSCAD in order to produce the 3D
-solid of revolution. If you do not do this, the solid produced in
-OpenSCAD will have very small holes in it at the points of junction
-between the profile segments.
+3.5mm and a radius of 30mm. This script can be used to generate the
+profile to be used to produce a 3D print of a fly arena, as described in
+the *What you will (or might) need: Hardware* section.
 
       Arena <- function(h=3.5,  radius=30){
       h <- 3.5 ##millimeters (height of arena from floor to ceiling)

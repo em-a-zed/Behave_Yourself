@@ -120,3 +120,29 @@ instead of the Arduino Mega boards. In this case, it would also be
 possible to take advantage of the extensive wireless communication
 possibilities offered by these boards, instead of hardwiring the two
 boards together.
+
+<br />
+# Controlling external devices
+
+The need to employ Arduino, ESP32 or similar boards most often arises
+when it becomes necessary to interface the tracking and/or visual
+stimulation scripts to allow them to also control external devices. For
+example, in the case of *Drosophila melanogaster* strains genetically
+manipulated to allow the optogenetic activation of specifically
+engineered genes, it may become necessary to allow for the temporally
+controlled activation/inactivation of such genes during an experiment
+(as described for example in (Meda et al. 2020)). This would require the
+automatic switching on and off of specifically designed narrow bandwidth
+emitting LEDs. Such a task can be easily implemented by using Arduino
+technology. The Arduino board is connected to the controlling computer
+via USB, and the optogenetic LEDs circuit can be connected to one of the
+digital I/O pins of the Arduino, which in turn can be addressed directly
+from the tracking/visual stimulation script(s), by means of the specific
+commands made available through the Python and/or Matlab Arduino
+libraries.\
+It is possible to perform the same task using a
+[LabJack](https://labjack.com/) interface, since such interfaces also
+have dedicated libraries which work with Matlab and Python. The LabJack
+family of interfaces are more expensive than Arduino or ESP32 boards,
+but they allow for high frequency communication through their GPIO pins,
+while perhaps also being a little more user friendly to handle.

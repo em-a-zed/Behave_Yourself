@@ -70,3 +70,53 @@ a mini alluminium breadboard with a specific holder.
 
 The breadboards, posts, IR LED array and LED array holder are all from
 [Thorlabs](https://www.thorlabs.com/).
+
+<br />
+# Two computers: separating visual stimulation from tracking
+
+In some circumstances it may be desirable to control the visual
+stimulation apparatus (i.e. UST projector(s)) and the tracking of the
+experimental animal(s) separately (i.e. by using a separate computer for
+each task). This may become necessary to improve the performance of the
+two tasks, especially in terms of the speed of the tracking.\
+In our experience, a situation of this type occurred when performing the
+tracking of a single animal using a Matlab script (for an example see
+the *Code: Matlab Scripts* section), while the visual stimulation was
+being performed under the control of a Python script using the Psychopy
+library (for an example see the *Code: Python Scripts* section). This
+turned out to be a problematic situation for a single computer to
+handle, leading to a very noticeable slowing down of the tracking. In
+this case we resorted to running the two scripts on separate computers.
+We thus adopted a \"quick and dirty\" solution to the problem. The two
+computers were connected by way of two
+[Arduino](https://www.arduino.cc/) boards, leveraging on the fact that
+there are Arduino libraries available both for Matlab and for Python.
+Such libraries allow a computer to communicate with the Arduino board
+through a USB connection, using a serial communication protocol.
+Communication between the Arduino boards is established by wiring the
+two boards via a single digital I/O pin on each board. The state of the
+connected Arduino digital pins can be controlled directly from the
+Python and/or Matlab scripts. This allows to send discrete signals from
+one script to the other, permitting the synchronization of tasks between
+the two computers. Indeed, in this case, all that was needed was to have
+the possibility of sending signals between the two computers in order to
+synchronize the tracking with the visual stimulation, in particular in
+closed-loop situations. The logic of this process implies that the
+\"sender\" computer sends a signal to a specified digital I/O pin on the
+Arduino board to which it is connected via USB, while the \"receiving\"
+computer continues polling the equivalent digital I/O pin on the Arduino
+board to which it is connected via USB for a received signal. Probably
+the best model of Arduino boards for this application would be the
+*Mega* model, since this model has a slightly greater processing power,
+resulting in faster processing speed (so that there should be very
+little delay in the communication between the two computers).\
+With this type of connection, it is very important that the two Arduino
+boards share a common ground connection in order to guarantee that each
+board can correctly interpret an incoming signal as being significantly
+above the threshold to be interpreted as a positive signal.\
+The same kind of approach could be adopted using
+[ESP32](https://www.espressif.com/) boards (see the Post on ESP32)
+instead of the Arduino Mega boards. In this case, it would also be
+possible to take advantage of the extensive wireless communication
+possibilities offered by these boards, instead of hardwiring the two
+boards together.

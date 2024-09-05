@@ -19,6 +19,7 @@ email: mauroagostino.zordan@unipd.it
 description: "Animal tracking in the lab: a DIY reference"
 baseurl: "/Behave_Yourself" # the subpath of your site, e.g. /blog
 url: "https://em-a-zed.github.io"  # the base hostname & protocol for your site, e.g. http://example.com
+# copyright: "Behave Yourself! By M@Z"
 author:
   name: M@Z
   twitter: #Towlette_Pettetucci

@@ -4,10 +4,14 @@
       {% if site.copyright %}
         {{ site.copyright | markdownify }}
       {% else %}
-	    <p> <strong><a href="https://www.biologia.unipd.it/en/">Department of Biology</a></strong><img src= {{ site.url }}{{ 
-	site.baseurl}}/assets/images/Logo_DiBio.png alt="Dept. of Biology Logo">  <strong><a href="https://www.unipd.it">University of Padova</a></strong><img src= {{ site.url }}{{ 
-	site.baseurl}}/assets/images/Timbro_UNIPD_No_Back.png alt="University of Padova Logo"></p>
-        <p>&copy; {{ site.time | date: '%Y' }} "{{ site.title }}" A Project by Mauro A. Zordan (M@Z).</p>
+	  <center>
+	    <p style="display:inline-block;"> <img src= {{ site.url }}{{ 
+	site.baseurl}}/assets/images/Logo_DiBio.png alt="Dept. of Biology Logo"> <br>
+	<strong><a href="https://www.biologia.unipd.it/en/">
+		Department of Biology<br> University of Padova </a> </p>
+        <p>&copy; {{ site.time | date: '%Y' }} "{{ site.title }}" <br>
+			A Project by Mauro A. Zordan (M@Z)</p>
+	</center>
       {% endif %}
     </div>
   </div>

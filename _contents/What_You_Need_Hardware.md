@@ -497,7 +497,7 @@ visible on the left of the 3D object and it shows the commands in the
 order in which they should be issued.</p>
 <div class="center">
 <p><img src="{{ site.url }}{{ 
-	site.baseurl}}/assets/Images/OpenSCAD_60mm_Arena.png" alt="image" /></p>
+	site.baseurl}}/assets/images/OpenSCAD_60mm_Arena.png" alt="image" /></p>
 </div></li>
 <li><p>Save the 3D object as an "stl" file.</p></li>
 <li><p>Send to 3D printing service to be printed in the material of

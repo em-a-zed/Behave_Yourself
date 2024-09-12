@@ -28,6 +28,7 @@ twitter_username: #Towlette_Pettetucci
 github_username: em-a-zed
 MAZ_username: maz
 logo: /assets/images/DIY_Logo.svg
+google_analytics: "G-J44MH747B6"
 search: true
 search_full_content: true
 search_provider: lunr

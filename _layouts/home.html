@@ -4,10 +4,11 @@ layout: default
 
 {% include page-intro.html %}
 
+
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
     <div>{{ content }}</div>
-    
+{% comment %}    
     {% if site.posts.size > 0 %}
       <div>
         <header class="section-title">
@@ -29,3 +30,4 @@ layout: default
     
   </div>
 </main>
+{% endcomment %}

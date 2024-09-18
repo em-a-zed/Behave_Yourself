@@ -6,6 +6,8 @@ categories:
 tags:
   - Live tracking
   - High speed detection
+image: 
+  path: /assets/images/Stamps.png
 ---
 I found this development in the field of high speed cameras for object identification and tracking a fascinating and promising prospect.
 Event-based cameras, also known as neuromorphic cameras or dynamic vision sensors, differ from traditional cameras in the way they capture and process visual information. They work in a way which is reminiscent of the human visual system as they capture changes in a scene rather than recording entire frames at a fixed rate.

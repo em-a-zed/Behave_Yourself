@@ -122,19 +122,22 @@ functional version of a tracker which can easily live-track a single,
 freely moving individual. In it's simplicity the script allows to easily
 understand how the various parts of the program work. It is also fairly
 well commented, so this should further facilitate the comprehension of
-its logic.\
+its logic.  
+<br />
 The script allows to monitor the tracked individual live, as well as
 optionally allowing the plotting of tracking data (also live).
 Furthermore the script also implements the *Pyschopy* library, allowing
 the user to define the type of visual pattern to present to the tracked
 individual (on a separate window and/or screen). In addition, the
 projected pattern(s) are programmed to respond, in closed-loop form, to
-specific movements of the tracked individual.\
+specific movements of the tracked individual.  
+<br />
 Finally, the script also uses the *Pandas* library to allow the
 organization of the collected tracking data as a dataframe, which
 greatly facilitates saving the collected data into a text file, which
 can then be easily accessed and analyzed using Python scripts,
-spreadsheet software, R scripts etc.\
+spreadsheet software, R scripts etc.  
+<br />
 As in the case of the Matlab script for tracking a single tethered
 individual (see the Matlab code section), this tracking algorithm also
 employs a strategy, based on the approximation of the object to be
@@ -143,10 +146,12 @@ be monitored by tracking the center of mass of the ellipse as well as
 the rotations of the longitudinal axis of the ellipse in order to obtain
 information on the object's instantantaneous orientation. This approach
 was described by Raphael Candelier and further details can be found
-here: [Candelier](https://raphael.candelier.fr/?blog=Image%20Moments).\
+here: [Candelier](https://raphael.candelier.fr/?blog=Image%20Moments).  
+<br />
 The algorithm to perform this type of tracking was provided by Raphael
 Candelier in the form of a Matlab script, which I then \"translated\"
-into Python language.<br />
+into Python language.  
+<br />
 <br />
 **Below is a brief video showcasing the steps described above**.<br />
 The window on the right shows the Psychopy output in the form of a dot kinetogram. The window on the left shows the tracked fly, with the identified ellipse (in green) and the center of mass (in red). The dot kinetogram was programmed to change the direction of the flow of dots according to the orientation of the fly. The numbers scrolling in the background are the estimates of the frame rate of the tracking process. This is influenced by having the live video of the tracked individual presented on screen during the tracking. Without this, the tracking rate approximately doubles. 
